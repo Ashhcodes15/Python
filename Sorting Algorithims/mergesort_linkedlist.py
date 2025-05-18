@@ -24,7 +24,7 @@ class LinkedList:
         print(temp.data)
         return
 
-# Merge two sorted linked lists
+# Merge 2 sorted linked lists
 def merge(left, right):
     if not left:
         return right
@@ -40,7 +40,7 @@ def merge(left, right):
 
     return result
 
-# Merge sort for linked list
+# Merge sort for a linked list
 def merge_sort(head):
     if not head or not head.next:
         return head
